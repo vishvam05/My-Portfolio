@@ -1,9 +1,7 @@
- /* =================================================================
-           1. CSS VARIABLES & GLOBAL STYLES
-           ================================================================= */
+ /*1. CSS VARIABLES & GLOBAL STYLES */
         :root {
-            --primary-color: #2563eb;
-            --primary-dark: #1d4ed8;
+            --primary-color: #005f73;
+            --primary-dark: #004b5c;
             --secondary-color: #64748b;
             --text-dark: #1e293b;
             --text-light: #64748b;
@@ -29,9 +27,7 @@
             background-color: var(--bg-dark);
         }
 
-        /* =================================================================
-           2. GENERAL & REUSABLE COMPONENTS
-           ================================================================= */
+        /* 2. GENERAL & REUSABLE COMPONENTS */
         .section-title {
             font-size: 2rem;
             font-weight: 700;
@@ -120,9 +116,7 @@
             border-radius: 20px;
         }
 
-        /* =================================================================
-           3. ANIMATIONS
-           ================================================================= */
+        /* 3. ANIMATIONS */
         @keyframes fadeInUp {
             from {
                 opacity: 0;
@@ -145,9 +139,7 @@
             transform: translateY(0);
         }
 
-        /* =================================================================
-           4. NAVIGATION
-           ================================================================= */
+        /* 4. NAVIGATION */
         .navbar {
             transition: all 0.3s ease;
             background-color: rgba(15, 23, 42, 0.7) !important;
@@ -195,9 +187,7 @@
             background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
         }
 
-        /* =================================================================
-           5. HERO SECTION
-           ================================================================= */
+        /* 5. HERO SECTION*/
         .home-section {
             display: flex;
             min-height: 100vh;
@@ -271,9 +261,7 @@
             border-radius: 50%;
         }
 
-        /* =================================================================
-           6. ABOUT SECTION
-           ================================================================= */
+        /* 6. ABOUT SECTION */
         #about {
             background: white;
             padding-top: 4rem;
@@ -311,19 +299,17 @@
             text-align: center;
         }
 
-        /* =================================================================
-           7. EDUCATION SECTION
-           ================================================================= */
+        /* 7. EDUCATION SECTION*/
       .education-card {
             background: white;
             padding: 2rem;
             border-radius: 15px;
             box-shadow: var(--shadow);
             display: flex;
-            align-items: center; /* Vertically center the content */
+            align-items: center;
             gap: 1.5rem;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
-            height: 100%; /* Ensure cards in a row have equal height */
+            height: 100%; 
         }
 
         .education-card:hover {
@@ -359,9 +345,7 @@
         .education-highlights {
             margin-top: 1rem;
         }
-/* =================================================================
-           8. PROJECTS SECTION
-           ================================================================= */
+/* 8. PROJECTS SECTION */
         #projects {
             background-color: var(--bg-light);
             padding-top: 4rem;
@@ -465,9 +449,7 @@
             margin-right: 0.5rem;
         }
 
-             /* =================================================================
-           9. SKILLS SECTION (FLIP CARDS)
-           ================================================================= */
+             /* 9. SKILLS SECTION (FLIP CARDS) */
         #skills {
             padding-top: 4rem;
             padding-bottom: 4rem;
@@ -496,7 +478,7 @@
 
         .skills-grid {
             display: grid;
-            gap: 1.5rem; /* Reduced gap for closer cards */
+            gap: 1.5rem;
             justify-content: center;
         }
         
@@ -589,9 +571,7 @@
             line-height: 1.5;
             margin: 0;
         }
-        /* =================================================================
-           10. CERTIFICATIONS SECTION
-           ================================================================= */
+        /* 10. CERTIFICATIONS SECTION */
         #certifications{
             background-color: white;
            }
@@ -645,9 +625,7 @@
             margin-bottom: 1rem;
         }
 
-        /* =================================================================
-           11. CONTACT SECTION
-           ================================================================= */
+        /* 11. CONTACT SECTION */
         #contact{
             background-color: white;
            }
@@ -708,16 +686,12 @@
             color: var(--primary-dark);
         }
 
-        /* =================================================================
-           12. FOOTER
-           ================================================================= */
+        /* 12. FOOTER*/
         footer {
             background: var(--text-dark) !important;
         }
 
-        /* =================================================================
-           13. MODAL STYLES
-           ================================================================= */
+        /*13. MODAL STYLES*/
         .modal-content {
             background-color: var(--bg-dark-2);
             color: #f1f5f9;
@@ -735,11 +709,6 @@
         #aiBioResult p:last-child {
             margin-bottom: 0;
         }
-
-        /* =================================================================
-           14. RESPONSIVE STYLES
-           ================================================================= */
-        
         /* Tablets and smaller devices (<= 991.98px) */
         @media (max-width: 991.98px) {
             .home-section { text-align: center; }
